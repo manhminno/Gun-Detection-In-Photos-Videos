@@ -6,4 +6,6 @@
 - Read more about Yolo: https://pjreddie.com/darknet/yolo/
 - Command run: python YOLO.py -i (your_image) -cl (your_classes) -w (your_weight) -c (your_cfgfile)
 - Demo:
-<div style="text-align:center"><img src ="https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/object-detection.jpg" /></div>
+<p align="center"> 
+<img src="https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/object-detection.jpg">
+</p>
