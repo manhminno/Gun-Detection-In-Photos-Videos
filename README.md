@@ -4,4 +4,6 @@
 - You can download weights and bias that I've trained here: https://drive.google.com/open?id=1hdn6ndSQbAAEByIXoxB3tCu68st0h6Wc
 - You can download pre-train of darknet here: https://drive.google.com/file/d/1-oHpg4jBsjAQVlB2anXYFuOU7Dd3tNG7/view
 - Read more about Yolo: https://pjreddie.com/darknet/yolo/
-- ![alt text](https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/object-detection.jpg)
+- Command run: python YOLO.py -i (your_image) -cl (your_classes) -w (your_weight) -c (your_cfgfile)
+- Demo:
+<div style="text-align:center"><img src ="https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/object-detection.jpg" /></div>
