@@ -1,5 +1,0 @@
-classes= 1
-train  = train.txt
-valid  = val.txt
-names = idname.names
-backup = backup
