@@ -11,5 +11,5 @@
 ```
 - Demo:
 <p align="center"> 
-<img src="https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/object-detection.jpg">
+<img src="https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/Gun-Detection/object-detection.jpg">
 </p>
