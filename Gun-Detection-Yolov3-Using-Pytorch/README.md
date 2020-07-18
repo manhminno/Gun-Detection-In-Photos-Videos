@@ -1,4 +1,5 @@
 # Gun Detection Using Yolov3 - Pytorch: Real-time detection
+### How to train Yolov3 to detect custom objects: [Click here](https://github.com/manhminno/Gun-Detection-In-Photos-Videos/blob/master/README.md)
 ### *U can download weight i had trained about 12 hours on GTX 1080 Ti: [Download](https://drive.google.com/open?id=10U0HetPuULgAxmnboQIAyFEyWMuU01Gc)*
 ### Command run:
 ```
