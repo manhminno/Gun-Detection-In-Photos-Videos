@@ -5,7 +5,7 @@
 For training I use convolutional weights that are pre-trained on Imagenet. I use weights from the darknet74 model. You can just download the weights for the convolutional layers [here](https://drive.google.com/file/d/1-oHpg4jBsjAQVlB2anXYFuOU7Dd3tNG7/view).
 ### Preparing YOLOv3 configuration files:
 YOLOv3 needs certain specific files to know how and what to train. I’ll be creating these three files(.data, .names and .cfg) and also edit the yolov3.cfg.
-- First let’s prepare the YOLOv3 .data and .names file. Let’s start by creating yolo.data and filling it with this content. This basically says that we are training one class, what the train and validation set files are and what file contains the names for the categories we want to detect.
+- First let’s prepare the YOLOv3 .data and .names file. Let’s start by creating yolo.data and filling it with this content. This basically says that i'm training one class, what the train and validation set files are and what file contains the names for the categories i want to detect.
 ```
 classes= 1
 train  = train.txt
@@ -20,12 +20,12 @@ Gun
 - Now i go to create the .cfg for choose the yolo architecture. I just duplicated the yolov3.cfg file, and made the following edits: 
 Change the Filters and classes value.
 ```
-+ Line 603: set filters=(classes + 5)*3 in my case filters=21
-+ Line 610: set classes=2, the number of categories i want to detect
-+ Line 689: set filters=(classes + 5)*3 in my case filters=21
-+ Line 696: set classes=2, the number of categories i want to detect
-+ Line 776: set filters=(classes + 5)*3 in my case filters=21
-+ Line 783: set classes=2, the number of categories i want to detect
++ Line 603: set filters=(classes + 5)*3 in my case filters=18
++ Line 610: set classes=1, the number of categories i want to detect
++ Line 689: set filters=(classes + 5)*3 in my case filters=18
++ Line 696: set classes=1, the number of categories i want to detect
++ Line 776: set filters=(classes + 5)*3 in my case filters=18
++ Line 783: set classes=1, the number of categories i want to detect
 ```
 ## Training:
 Weights only save every 100 iterations until 900, then saves every 10,000. If you want change the process please follow the [link](https://github.com/pjreddie/darknet/issues/190).
